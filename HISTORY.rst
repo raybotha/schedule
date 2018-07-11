@@ -3,7 +3,7 @@
 History
 -------
 
-0.next (TBD)
+2018.07 (ray's prerelease)
 ++++++++++++++++++++
 
 - .at() now supports units of minutes, this adds support for running every minute, using '::00' syntax, similar to running every hour syntax ':00'
