@@ -14,9 +14,9 @@ import sys
 from setuptools import setup
 
 
-SCHEDULE_VERSION = '0.5.0'
+SCHEDULE_VERSION = '2018.07'
 SCHEDULE_DOWNLOAD_URL = (
-    'https://github.com/dbader/schedule/tarball/' + SCHEDULE_VERSION
+    'https://github.com/raybotha/schedule/tarball/' + SCHEDULE_VERSION
 )
 
 def read_file(filename):
@@ -35,7 +35,7 @@ setup(
     license='MIT',
     author='Daniel Bader',
     author_email='mail@dbader.org',
-    url='https://github.com/dbader/schedule',
+    url='https://github.com/raybotha/schedule',
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
         'schedule', 'periodic', 'jobs', 'scheduling', 'clockwork',
